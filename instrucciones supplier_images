@@ -1,0 +1,20 @@
+2ff93301dabfc549.png
+In a similar way, you are going to write a script named supplier_image_upload.py that takes the jpeg images from the supplier-data/images directory that you've processed previously and uploads them to the web server fruit catalog.
+
+Use the nano editor to create a file named supplier_image_upload.py:
+
+nano ~/supplier_image_upload.py
+Copied!
+Complete the script with the same technique as used in the file example_upload.py.
+
+Once you have completed editing the supplier_image_upload.py script, save the file by typing Ctrl-o, Enter key, and Ctrl-x.
+
+Grant executable permission to the supplier_image_upload.py script.
+
+sudo chmod +x ~/supplier_image_upload.py
+Copied!
+Run the supplier_image_upload.py script.
+
+./supplier_image_upload.py
+Copied!
+Refresh the URL opened earlier, and now you should find all the images uploaded successfully.
